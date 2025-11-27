@@ -1,0 +1,48 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card-top {
+    background:gold;
+}
+
+.card-normal {
+    background: rgba(167, 162, 162, 0.726);
+}
+
+.no-image {
+    background: #ddd;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+button.following {
+    background: red;
+    color: white;
+}
